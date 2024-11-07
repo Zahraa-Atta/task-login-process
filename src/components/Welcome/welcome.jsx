@@ -1,5 +1,5 @@
 // MainWelcome.jsx
-import Container from "../container/container";
+import Container from "../Container/container.jsx";
 import "./welcome.css";
 import lines from "../../../src/assets/lines.svg";
 import MainSeleact from "../../Screen/Seleact/seleact";
@@ -9,8 +9,6 @@ const MainWelcome = () => {
   return (
     <Container>
       <div className="mainContainer"> 
-        
-      
         <div className="card">
           <div className="mainCard">
             <div className="info">
