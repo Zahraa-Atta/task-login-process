@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Container from "../../components/container/container";
+import Container from "../../components/Container/container.jsx";
 import "./seleact.css";
 
 const MainSeleact = () => {
