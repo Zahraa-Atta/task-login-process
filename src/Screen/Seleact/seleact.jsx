@@ -25,7 +25,7 @@ const MainSeleact = () => {
             >
               <i className="icon freelancer-icon"></i>
               
-              <h2>Freelancer</h2>
+              <h2>Freelancer zahraa</h2>
               <p>I'm a freelancer ready to work for projects</p>
             </div>
             <div
