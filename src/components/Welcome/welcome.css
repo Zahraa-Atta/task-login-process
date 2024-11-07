@@ -1,0 +1,37 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 360px;
+}
+
+.card {
+    background-color: #3C97AF;
+    width: 500px;
+    height: 700px; 
+    border-radius: 20px;
+    padding: 20px; 
+}
+
+.mainCard {
+    margin-top: 100px; 
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.info .subInfo {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px; 
+}
+
+.Line {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
