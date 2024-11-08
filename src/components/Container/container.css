@@ -6,3 +6,8 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+  .body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

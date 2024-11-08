@@ -1,13 +1,12 @@
 // MainWelcome.jsx
-import Container from "../Container/container.jsx";
 import "./welcome.css";
 import lines from "../../../src/assets/lines.svg";
-import MainSeleact from "../../Screen/Seleact/seleact";
 
 
 const MainWelcome = () => {
   return (
-    <Container>
+
+      <div className="contient">
       <div className="mainContainer"> 
         <div className="card">
           <div className="mainCard">
@@ -25,13 +24,13 @@ const MainWelcome = () => {
           <img src={lines} className="Line" alt="" />
         </div>
 
-        
-        <MainSeleact /> 
-        
+     
+      
+        </div>
       </div>
-    </Container>
+  
   );
 };
-
 export default MainWelcome;
+
 

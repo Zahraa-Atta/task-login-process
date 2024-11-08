@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 360px;
+  
 }
 
 .card {
@@ -11,11 +12,13 @@
     height: 700px; 
     border-radius: 20px;
     padding: 20px; 
+    position: relative;
 }
 
 .mainCard {
     margin-top: 100px; 
     text-align: center;
+
 }
 
 .info h1 {
@@ -30,8 +33,15 @@
 }
 
 .Line {
-    margin-left: 50px;
-    margin-top: 20px;
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  
 }
+.contient{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
 
