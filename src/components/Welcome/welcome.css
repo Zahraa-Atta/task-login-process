@@ -8,11 +8,12 @@
 
 .card {
     background-color: #3C97AF;
-    width: 500px;
-    height: 700px; 
+    width: 600px;
+    height: 800px; 
     border-radius: 20px;
     padding: 20px; 
     position: relative;
+    margin-top: 30px;
 }
 
 .mainCard {
