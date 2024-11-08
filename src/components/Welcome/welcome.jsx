@@ -10,9 +10,9 @@ const MainWelcome = () => {
       <div className="mainContainer"> 
         <div className="card">
           <div className="mainCard">
-            <div className="info">
+            <div className="Info">
               <h1>Welcome to Your Freelancing Hub!</h1>
-              <p className="subInfo">
+              <p className="SubInfo">
                 We’re thrilled to have you here! Whether you're a client searching
                 for skilled freelancers to bring your projects to life or a
                 freelancer eager to find exciting opportunities, this is the place

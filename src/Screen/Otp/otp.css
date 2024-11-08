@@ -1,0 +1,35 @@
+.otp-input-style {
+    width: 60px;    
+    height: 56px;   
+    font-size: 24px; 
+    text-align: center; 
+    margin: 0 10px;  
+    border-radius: 8px;
+    border: 2px solid #ddd; 
+    transition: border 0.3s ease; 
+    color: rgba(60, 151, 175, 1);
+  }
+  
+
+  .otp-input-style:focus {
+    background-color: rgba(60, 151, 175, 1);
+    outline: none;  
+  }
+  
+
+  .otp-container-style .separator {
+    margin: 0 10px;  
+    font-size: 28px; 
+  
+  }
+  
+  
+  .otpstyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 54px;
+  }
+  

@@ -8,8 +8,8 @@
 
 .card {
     background-color: #3C97AF;
-    width: 600px;
-    height: 800px; 
+    width: 500px;
+    height: 700px; 
     border-radius: 20px;
     padding: 20px; 
     position: relative;
@@ -21,13 +21,13 @@
     text-align: center;
 
 }
-
-.info h1 {
+   
+.Info h1 {
     font-size: 40px;
     color: white;
 }
 
-.info .subInfo {
+.Info .SubInfo {
     font-size: 20px;
     color: white;
     margin-top: 20px; 
