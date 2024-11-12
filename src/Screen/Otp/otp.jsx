@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import { OtpInput } from 'reactjs-otp-input';
+import {OtpInput} from "reactjs-otp-input"  
 import './otp.css';
 
 const Otp = () => {
-  const [otp, setOtp] = useState('');
-  const [isValid, setIsValid] = useState(false);
+  const [otp, setOtp] = useState('');  
+  const [isValid, setIsValid] = useState(false);  
 
   const handleOtpChange = (otp) => {
     setOtp(otp);
-    setIsValid(otp.length === 6);
+    setIsValid(otp.length === 6);  
   };
 
   const btnpath = () => {
@@ -18,12 +18,13 @@ const Otp = () => {
   };
 
   return (
-    <div className="otpstyle">
-      <div className="top-bar">
+    <div className="lines">
+    <div className="top-bar">
         <div className="line-blue"></div>
-        <div className="line-blue"></div>
+        <div className="line-blueTwo"></div>
+        <div className="line-grayThree"></div>
         <div className="line-gray"></div>
-      </div>
+    </div>
       <div className="info">
         <h2>Enter Your Phone Number</h2>
         <div className="subInfo">
@@ -34,11 +35,14 @@ const Otp = () => {
         </div>
       </div>
       <OtpInput 
-        value={otp} 
-        onChange={handleOtpChange} 
-        numInputs={6}  
-        className="otp-container-style"  // استخدم className بدلاً من containerStyle
-      />
+  value={otp} 
+  onChange={handleOtpChange} 
+  numInputs={6}  
+  containerStyle="otp-container-style"
+  inputStyle="otp-input-style"
+/>
+
+
       <div className="btn">
         <button 
           onClick={btnpath} 

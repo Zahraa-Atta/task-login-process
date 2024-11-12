@@ -31,25 +31,51 @@
     margin-top: 54px;
 }
 
-.top-bar {
+.lines {
+    position: absolute;
+    top: 80px;
+    right: 0;
+   margin-right: 100px;
+    padding: 0 20px;
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.top-bar {
+    gap: 10px;
+display: flex;
+justify-content: center;
+
 }
 
-.line-blue, .line-gray {
-    height: 4px;
-    width: 50px;
-    margin: 0 4px;
-}
 
 .line-blue {
-    background-color: blue;
+width: 200px; 
+height: 8px; 
+background-color: rgba(60, 151, 175, 1);
+border-radius: 6px;
 }
 
 .line-gray {
-    background-color: gray;
+width: 200px; 
+height: 8px; 
+background-color: #EBEBEB;
+border-radius: 6px;
 }
-
+.line-grayThree{
+    width: 100px; 
+height: 8px; 
+background-color: #EBEBEB;
+border-radius: 6px;
+}
+.line-blueTwo{
+    width: 100px; 
+height: 8px; 
+background-color: rgba(60, 151, 175, 1);
+border-radius: 6px;
+gap: 2px;
+}
 .info {
     margin-bottom: 20px;
 }
